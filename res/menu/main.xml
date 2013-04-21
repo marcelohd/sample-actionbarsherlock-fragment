@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">    
+   <item
+        android:id="@+id/menuPrincipal"
+        android:title="@string/menu"        
+        android:icon="@drawable/abs__ic_menu_moreoverflow_normal_holo_light"
+        android:showAsAction="always" >        
+        <menu>         
+           <item
+    			android:id="@+menu_over/sync"    
+        		android:title="@string/sync" />             
+           <item
+    			android:id="@+menu_over/export"    
+        		android:title="@string/export" />
+            <item
+                android:id="@+menu_over/settings"
+        		android:title="@string/settings" />
+         </menu> 
+    </item>
+</menu>
+    
